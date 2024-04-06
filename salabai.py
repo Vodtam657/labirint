@@ -1,13 +1,17 @@
-import pygame
+import pygame, sys
 
 
 class Salabai:
-    def __init__ (self, x, y, w, h, img,speed):
+    def __init__ (self, x, y, w, h, img,speed, entx, enty):
         self.photo = pygame.transform.scale(pygame.image.load(img), (w,h))
         self.hitbox = self.photo.get_rect()
         self.hitbox.x = x
         self.hitbox.y = y
         self.speed = speed
+        self.endx = entx
+        self.endy = enty
+        self.x = x
+        self.y = y
 
 
 
@@ -16,13 +20,10 @@ class Salabai:
         window.blit(self.photo, (self.hitbox.x, self.hitbox.y))
 
 
-    def move(self):
-        keys = pygame.key.get_pressed()
-        if keys[pygame.K_i]:
-            self.hitbox.y -= self.speed
-        if keys[pygame.K_k]:
-            self.hitbox.y += self.speed
-        if keys[pygame.K_j]:
-            self.hitbox.x -= self.speed
-        if keys[pygame.K_l]:
-            self.hitbox.x += self.speed
+    def rux (self):
+        if self.endx >= self.hitbox.x:
+            self.speed *= -1
+        if self.x <= self.hitbox.x:
+            self.speed *= -1
+        self.hitbox.x+= self.speed
+

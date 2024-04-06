@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="d93b5304-71ac-4144-871e-706a01fb318b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/salabai.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/est.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/salabai.py" beforeDir="false" afterPath="$PROJECT_DIR$/salabai.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
