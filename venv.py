@@ -1,5 +1,7 @@
 import pygame
 
+impo
+
 window = pygame.display.set_mode((700, 500))
 fps = pygame.time.Clock()
 
