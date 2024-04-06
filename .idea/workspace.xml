@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d93b5304-71ac-4144-871e-706a01fb318b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/images.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/salabai.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,9 +23,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": -1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: -1
+}</component>
   <component name="ProjectId" id="2ejRmqP7pPMpa4FScg7a5w1SaZ0" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
