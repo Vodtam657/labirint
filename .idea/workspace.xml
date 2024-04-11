@@ -25,9 +25,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2ejRmqP7pPMpa4FScg7a5w1SaZ0" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -36,6 +36,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.est.executor": "Run",
+    "Python.main.executor": "Run",
     "Python.venv.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -53,7 +54,7 @@
       <recent name="C:\Users\Logika\Desktop\hjj\labirint" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.main">
     <configuration name="venv" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="labirint" />
       <option name="ENV_FILES" value="" />
@@ -94,6 +95,7 @@
       <option name="presentableId" value="Default" />
       <updated>1712416164982</updated>
       <workItem from="1712859645017" duration="437000" />
+      <workItem from="1712860265997" duration="23000" />
     </task>
     <servers />
   </component>
@@ -103,5 +105,6 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/labirint$venv.coverage" NAME="venv Coverage Results" MODIFIED="1712859933298" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/labirint$est.coverage" NAME="est Coverage Results" MODIFIED="1712859924195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/labirint$main.coverage" NAME="main Coverage Results" MODIFIED="1712860270421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
