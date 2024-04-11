@@ -18,11 +18,11 @@ class Bulba:
 
     def move(self):
         keys = pygame.key.get_pressed()
-        if keys[pygame.K_i]:
+        if keys[pygame.K_w]:
             self.hitbox.y -= self.speed
-        if keys[pygame.K_k]:
+        if keys[pygame.K_s]:
             self.hitbox.y += self.speed
-        if keys[pygame.K_j]:
+        if keys[pygame.K_a]:
             self.hitbox.x -= self.speed
-        if keys[pygame.K_l]:
+        if keys[pygame.K_d]:
             self.hitbox.x += self.speed
