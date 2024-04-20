@@ -8,7 +8,7 @@ fps = pygame.time.Clock()
 
 
 
-background = pygame.transform.scale(pygame.image.load("images (2).jpg"), (700, 500))
+background = pygame.transform.scale(pygame.image.load("black.background.png"), (700, 500))
 
 est = Bulba(100, 100, 50, 50, "images.png", 2)
 salabai = Salabai(100, 100, 50, 50, "images.png", 2, 200, 200)
