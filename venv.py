@@ -1,4 +1,15 @@
+from classes import*
 import pygame
+
+pygame.init()
+pygame.mixer.init()
+sound = pygame.mixer.Sound("money.ogg")
+sound.play()
+pygame.mixer.music.load("money.ogg")
+pygame.mixer.musik.play(-1)
+
+
+
 
 from est import Bulba
 from salabai import Salabai
@@ -22,6 +33,9 @@ while True:
             pygame.quit()
 
     salabai.rux()
+
+walk_sou
+
 
     window.blit(background, (0, 0))
 
